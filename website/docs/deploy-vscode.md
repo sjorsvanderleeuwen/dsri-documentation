@@ -1,6 +1,6 @@
 ---
 id: deploy-vscode
-title: Start a VSCode server
+title: VisualStudio Code
 ---
 
 ## Start VSCode with root privileges
@@ -19,9 +19,13 @@ Create the templates in your project catalog:
 oc apply -f https://raw.githubusercontent.com/MaastrichtU-IDS/dsri-openshift-applications/main/templates-anyuid/template-vscode-root-persistent.yml
 ```
 
-You can deploy it using the **VisualStudio Code with root user** solutions in the [Catalog web UI](https://app.dsri.unimaas.nl:8443/console/catalog):
+You can deploy it using the **VisualStudio Code with root user** solutions in the [Catalog web UI](https://console-openshift-console.apps.dsri2.unimaas.nl/console/catalog):
 
 > This application uses an existing Persistent Volume Claim (PVC) for a persistent storage of the data.
+
+<img src="/dsri-documentation/img/screenshot-deploy-vscode.png" alt="Deploy VSCode" style={{maxWidth: '100%', maxHeight: '100%'}} />
+
+
 
 ## Start VSCode with restricted user
 

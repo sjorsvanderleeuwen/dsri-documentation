@@ -1,6 +1,6 @@
 ---
 id: deploy-on-gpu
-title: Start on GPU
+title: GPU applications
 ---
 
 
@@ -16,8 +16,8 @@ If you want to run on GPU, **contact the [DSRI support team](mailto:dsri-support
 
 Once your project has been granted access to GPUs, you can deploy applications on GPU from the catalog:
 
-* Go to the [Catalog web UI](https://app.dsri.unimaas.nl:8443/console/catalog): **Add to Project** > **Browse Catalog**
-* **Filter** the catalog on the publisher "**Institute of Data Science, UM**"
+* Go to the [Catalog web UI](https://console-openshift-console.apps.dsri2.unimaas.nl/console/catalog): **Add to Project** > **Browse Catalog**
+* **Filter** the catalog for  "**JupyterLab on GPU**"
 * Choose one of the available templates:
   * **Pytorch on GPU with JupyterLab (Persistent)**.
   * **Tensorflow on GPU with JupyterLab (Persistent)**
@@ -30,14 +30,14 @@ The following parameters can be provided:
 4. **Storage name**: the storage Persistent Volume Claim (PVC)
 5. **Storage subpath**: path to the Notebook folder in the Persistent Volume Claim storage
 
-Now that your template is created and its accessible from the **Overview** page of OpenShift web UI.
+Now that your template is created and its accessible from the **Topology** page of OpenShift web UI.
 
 ## VSCode on GPU
 
 2 templates are available to deploy VisualStudio Code on GPU:
 
-* Go to the [Catalog web UI](https://app.dsri.unimaas.nl:8443/console/catalog): **Add to Project** > **Browse Catalog**
-* **Filter** the catalog on the publisher "**Institute of Data Science, UM**"
+* Go to the [Catalog web UI](https://console-openshift-console.apps.dsri2.unimaas.nl/console/catalog): **Add to Project** > **Browse Catalog**
+* **Filter** the catalog for "**VSCode on GPU**"
 * Choose one of the available templates:
   * **Tensorflow on GPU with VisualStudio (Persistent)**
   * **PyTorch on GPU with VisualStudio (Persistent)**
