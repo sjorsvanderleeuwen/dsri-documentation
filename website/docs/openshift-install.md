@@ -54,7 +54,7 @@ Or manually download the program and add it to your path:
    1. Open the Control Panel, and click on **System**
    2. Click on **Advance system settings** on the left or open the **Advance** tab of *System Properties.* 
    3. Click the button labeled **Environment Variables...** at the bottom. 
-   4. Look for the option in the **User variables** section for **Path**.
+   4. Look for the option in the **System variable** section for **Path**.
 
 <img class="screenshot" src="/dsri-documentation/img/OC_Path.png" alt="Set OC Path" style={{zoom: '100%', maxHeight: '500px', maxWidth: '500px'}} />
 
